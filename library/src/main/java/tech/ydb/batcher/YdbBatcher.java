@@ -1,4 +1,4 @@
-package tech.ydb.cleaner;
+package tech.ydb.batcher;
 
 import java.util.concurrent.ExecutorService;
 import tech.ydb.table.SessionRetryContext;
@@ -9,12 +9,12 @@ import tech.ydb.table.settings.DescribeTableSettings;
  *
  * @author zinal
  */
-public class YdbCleaner {
+public class YdbBatcher {
 
-    private final YdbCleanRequest request;
+    private final YdbBatcherRequest request;
     private final SessionRetryContext ctx;
 
-    public YdbCleaner(YdbCleanRequest request, SessionRetryContext ctx) {
+    public YdbBatcher(YdbBatcherRequest request, SessionRetryContext ctx) {
         this.request = request;
         this.ctx = ctx;
     }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>tech.ydb.cleaner</groupId>
-    <artifactId>ydb-cleaner</artifactId>
+    <groupId>tech.ydb.batcher</groupId>
+    <artifactId>ydb-batcher</artifactId>
     <version>1.0-SNAPSHOT</version>
     <!-- <version>X.Y[-SNAPSHOT]</version> -->
     <packaging>jar</packaging>
